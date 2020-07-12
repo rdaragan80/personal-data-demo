@@ -27,6 +27,25 @@ Provide help
 git clone https://github.com/rdaragan80/personal-data-demo.git
 ```
 
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0pky">Function</th>
+    <th class="tg-0pky">URI</th>
+    <th class="tg-0pky">HTTP Methods</th>
+    <th class="tg-0pky">Description</th>
+  </tr>
+</thead>
+<tbody>
+
 **2. Configure PostgreSQL**
 
 First, create a database named `personData`. Then, open `src/main/resources/application.properties` file 
