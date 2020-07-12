@@ -18,14 +18,7 @@ Provide help
 
 **8. List Persons**
 
-
-## Steps to Setup
-
-**1. Clone the repository**
-
-```bash
-git clone https://github.com/rdaragan80/personal-data-demo.git
-```
+## API Mapping
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -38,6 +31,7 @@ git clone https://github.com/rdaragan80/personal-data-demo.git
 <table class="tg">
 <thead>
   <tr>
+    <th class="tg-0pky">Base URI </th>
     <th class="tg-0pky">Function</th>
     <th class="tg-0pky">URI</th>
     <th class="tg-0pky">HTTP Methods</th>
@@ -45,6 +39,37 @@ git clone https://github.com/rdaragan80/personal-data-demo.git
   </tr>
 </thead>
 <tbody>
+  <tr>
+    <td class="tg-0pky">/api/v1</td>
+    <td class="tg-0pky">findAll</td>
+    <td class="tg-0pky">/persons</td>
+    <td class="tg-0pky">GET</td>
+    <td class="tg-0pky">Find all Persons object that found</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+</tbody>
+</table>
+
+## Steps to Setup
+
+**1. Clone the repository**
+
+```bash
+git clone https://github.com/rdaragan80/personal-data-demo.git
+```
 
 **2. Configure PostgreSQL**
 
